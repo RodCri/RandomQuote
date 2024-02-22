@@ -16,7 +16,7 @@ export const Card = () => {
   const fetchQuote = async() =>{
     try {
       const response = await fetch('https://api.quotable.io/quotes/random', {
-        'mode': 'cors',
+        'mode': 'no-cors',
         'headers': {
             'Access-Control-Allow-Origin': '*',
         }
