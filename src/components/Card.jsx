@@ -49,8 +49,8 @@ export const Card = () => {
         <p className={styles.card__quotes}>&quot;{quote.content}&quot;</p>
       </div>
       <div className={styles.content__btn}>
-        <Button typeBtn={'new'} imgRoute={'../assets/Regroup.svg'} handletClick={fetchQuote} />
-        <Button typeBtn={'copy'} imgRoute={'../assets/link.svg'} handletClick={() => clipBoard(quote.author)}/>
+        {/* <Button typeBtn={'new'} imgRoute={'../../src/assets/Regroup.svg'} handletClick={fetchQuote} />
+        <Button typeBtn={'copy'} imgRoute={'../../src/assets/link.svg'} handletClick={() => clipBoard(quote.author)}/> */}
       </div>
     </>
   )
