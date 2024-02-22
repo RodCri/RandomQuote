@@ -1,5 +1,6 @@
 .card {
-  width: 544px;
+  width: 90%;
+  max-width: 544px;
   padding: 3.2rem;
   border-radius: 2rem;
   color: var(--text-alt-card);
