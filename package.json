@@ -1,7 +1,6 @@
 {
   "name": "randomquote",
   "private": true,
-  "homepage": "http://RodCri.github.io/RandomQuote",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -26,5 +25,6 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "vite": "^5.1.4"
-  }
+  },
+  "homepage": "https://RodCri.github.io/RandomQuote/"
 }
