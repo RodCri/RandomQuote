@@ -1,0 +1,32 @@
+.card {
+  width: 544px;
+  padding: 3.2rem;
+  border-radius: 2rem;
+  color: var(--text-alt-card);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("../assets/bg-image-random-quote.svg") no-repeat bottom right;
+  background-color: var(--bg-card);
+}
+.card .card__title {
+  font-size: 2rem;
+  color: #e3e7ee;
+  font-size: 700;
+}
+.card .card__quotes {
+  font-size: 2.6rem;
+  text-align: center;
+  line-height: 1.6;
+}
+.card .card__tags {
+  display: flex;
+  gap: 1rem;
+}
+.content__btn {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  margin: 16px 0;
+}

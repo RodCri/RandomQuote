@@ -1,0 +1,7 @@
+.tag {
+  padding: 6px 15px;
+  color: var(--text-btn);
+  border: 1px solid var(--text-btn);
+  border-radius: 2rem;
+  font-size: 1.4rem;
+}

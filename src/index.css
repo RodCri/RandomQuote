@@ -1,0 +1,21 @@
+:root {
+  --text-btn: #6466e9;
+  --bg-body: #111729;
+  --bg-card: #20293a;
+  --text-card: #4a5567;
+  --text-alt-card: #97a3b6;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  font-size: 1.6rem;
+  background-color: var(--bg-body);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+}
