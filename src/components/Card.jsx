@@ -15,12 +15,7 @@ export const Card = () => {
 
   const fetchQuote = async() =>{
     try {
-      const response = await fetch('https://api.quotable.io/quotes/random', {
-        'mode': 'no-cors',
-        'headers': {
-            'Access-Control-Allow-Origin': '*',
-        }
-      });
+      const response = await fetch('https://api.quotable.io/quotes/random');
       const dataQuote = await response.json();
       setQuote(dataQuote[0])
     } catch (error) {
@@ -49,8 +44,8 @@ export const Card = () => {
         <p className={styles.card__quotes}>&quot;{quote.content}&quot;</p>
       </div>
       <div className={styles.content__btn}>
-        {/* <Button typeBtn={'new'} imgRoute={'../../src/assets/Regroup.svg'} handletClick={fetchQuote} />
-        <Button typeBtn={'copy'} imgRoute={'../../src/assets/link.svg'} handletClick={() => clipBoard(quote.author)}/> */}
+        <Button typeBtn={'new'} imgRoute={'../assets/Regroup.svg'} handletClick={fetchQuote} />
+        <Button typeBtn={'copy'} imgRoute={'../assets/link.svg'} handletClick={() => clipBoard(quote.author)}/>
       </div>
     </>
   )
